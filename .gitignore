@@ -1,0 +1,4 @@
+.config/astro/config.json
+.config/github-copilot/*
+.config/htop/htoprc
+.config/neofetch/config.conf

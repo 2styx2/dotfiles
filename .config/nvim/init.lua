@@ -1,12 +1,12 @@
 -- Hi Michael !
-local utils = require("utils")
+--local utils = require("utils")
 
-utils.fix_telescope_parens_win()
+--utils.fix_telescope_parens_win()
 -- make help and man open up on the side instead above
-vim.api.nvim_create_autocmd("FileType", {
-	pattern = { "help", "man" },
-	command = "wincmd L",
-})
+--vim.api.nvim_create_autocmd("FileType", {
+--	pattern = { "help", "man" },
+--	command = "wincmd L",
+--})
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
